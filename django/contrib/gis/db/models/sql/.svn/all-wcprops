@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8431/django/trunk/django/contrib/gis/db/models/sql
+END
+where.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/sql/where.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/sql/__init__.py
+END
+query.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8431/django/trunk/django/contrib/gis/db/models/sql/query.py
+END

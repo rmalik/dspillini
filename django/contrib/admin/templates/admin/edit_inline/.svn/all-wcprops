@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8984/django/trunk/django/contrib/admin/templates/admin/edit_inline
+END
+stacked.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8587/django/trunk/django/contrib/admin/templates/admin/edit_inline/stacked.html
+END
+tabular.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8984/django/trunk/django/contrib/admin/templates/admin/edit_inline/tabular.html
+END

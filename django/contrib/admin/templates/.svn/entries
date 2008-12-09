@@ -1,0 +1,40 @@
+8
+
+dir
+9183
+http://code.djangoproject.com/svn/django/trunk/django/contrib/admin/templates
+http://code.djangoproject.com/svn
+
+
+
+2008-09-21T16:15:09.251301Z
+9079
+kmtracey
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+widget
+dir
+
+admin
+dir
+
+registration
+dir
+
+admin_doc
+dir
+

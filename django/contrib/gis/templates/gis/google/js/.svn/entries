@@ -1,0 +1,40 @@
+8
+
+dir
+9183
+http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/templates/gis/google/js
+http://code.djangoproject.com/svn
+
+
+
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+google-map.js
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+7b2f0b4504ca02731f4721a15ecca5ec
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+

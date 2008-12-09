@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7971/django/trunk/django/contrib/localflavor/generic
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7294/django/trunk/django/contrib/localflavor/generic/__init__.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7971/django/trunk/django/contrib/localflavor/generic/forms.py
+END

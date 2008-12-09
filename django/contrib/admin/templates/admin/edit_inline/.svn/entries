@@ -1,0 +1,52 @@
+8
+
+dir
+9183
+http://code.djangoproject.com/svn/django/trunk/django/contrib/admin/templates/admin/edit_inline
+http://code.djangoproject.com/svn
+
+
+
+2008-09-08T05:19:28.373904Z
+8984
+adrian
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+stacked.html
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+54f43db4e6b92290b04ba52d4165b85c
+2008-08-26T18:15:19.910685Z
+8587
+brosner
+
+tabular.html
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+3b1b664e29ed917e3c87a04f4bf94c9f
+2008-09-08T05:19:28.373904Z
+8984
+adrian
+

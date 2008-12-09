@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8571/django/trunk/django/contrib/gis/db/models
+END
+manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/manager.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/__init__.py
+END
+proxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/proxy.py
+END
+mixin.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/mixin.py
+END
+query.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/db/models/query.py
+END

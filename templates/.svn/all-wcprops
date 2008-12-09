@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/338/trunk/templates
+END
+live_revision.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/149/trunk/templates/live_revision.html
+END
+user.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/232/trunk/templates/user.html
+END
+repo_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/201/trunk/templates/repo_new.html
+END
+issue_row.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/269/trunk/templates/issue_row.html
+END
+issue_star.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/232/trunk/templates/issue_star.html
+END
+repos_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/144/trunk/templates/repos_base.html
+END
+issue_base.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/232/trunk/templates/issue_base.html
+END
+context_select.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/114/trunk/templates/context_select.html
+END
+edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/261/trunk/templates/edit.html
+END
+diff_navigation.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/144/trunk/templates/diff_navigation.html
+END
+issue.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/324/trunk/templates/issue.html
+END
+repos.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/201/trunk/templates/repos.html
+END
+new.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/224/trunk/templates/new.html
+END
+diff2.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/338/trunk/templates/diff2.html
+END
+patch.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/315/trunk/templates/patch.html
+END
+inline_comment.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/106/trunk/templates/inline_comment.html
+END
+settings.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/201/trunk/templates/settings.html
+END
+user_popup.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/169/trunk/templates/user_popup.html
+END
+branch_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/201/trunk/templates/branch_edit.html
+END
+500.html
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/23/trunk/templates/500.html
+END
+starred.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/232/trunk/templates/starred.html
+END
+publish.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/224/trunk/templates/publish.html
+END
+branch_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/201/trunk/templates/branch_new.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/23/trunk/templates/404.html
+END
+issue_heading.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/232/trunk/templates/issue_heading.html
+END
+diff.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/315/trunk/templates/diff.html
+END
+all.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/249/trunk/templates/all.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/325/trunk/templates/base.html
+END
+patchset.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/324/trunk/templates/patchset.html
+END

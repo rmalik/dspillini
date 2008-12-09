@@ -1,0 +1,151 @@
+8
+
+dir
+9183
+http://code.djangoproject.com/svn/django/trunk/django/contrib/admin
+http://code.djangoproject.com/svn
+
+
+
+2008-09-27T05:57:10.399474Z
+9086
+mtredinnick
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+media
+dir
+
+validation.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+e6002e0644432013dd9312d15dd2f80f
+2008-09-10T06:06:04.637431Z
+9002
+adrian
+
+options.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+bb0de0860b07dbfa1722c738f5f1a2af
+2008-09-27T05:57:10.399474Z
+9086
+mtredinnick
+
+util.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+97213ce678db8668e7812d766ba1b994
+2008-08-27T07:19:44.848769Z
+8616
+gwilson
+
+__init__.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+99a21d6044c2ef0ab07c2166d4bbd2dc
+2008-08-26T16:18:20.887988Z
+8583
+jacob
+has-props
+
+helpers.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+5fe37271a77597e059a14511d95e04e5
+2008-08-31T20:30:55.355155Z
+8774
+jacob
+
+templatetags
+dir
+
+filterspecs.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+703ae87acc96a1a22bcfe0385b380ebe
+2008-07-18T23:54:34.446321Z
+7967
+brosner
+has-props
+
+models.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+59538c353e777d7c7060d3b1492b016c
+2008-07-18T23:54:34.446321Z
+7967
+brosner
+has-props
+
+views
+dir
+
+widgets.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+0b22fd366e384890fc6639cc7dd2e5ba
+2008-09-08T05:45:17.167899Z
+8985
+adrian
+
+templates
+dir
+
+sites.py
+file
+
+
+
+
+2008-10-07T01:26:35.000000Z
+9d8761b1c5902de43b461267b226253f
+2008-09-16T06:01:47.100431Z
+9048
+adrian
+

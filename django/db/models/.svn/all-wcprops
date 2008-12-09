@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/9150/django/trunk/django/db/models
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8932/django/trunk/django/db/models/base.py
+END
+manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8851/django/trunk/django/db/models/manager.py
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8855/django/trunk/django/db/models/options.py
+END
+loading.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7721/django/trunk/django/db/models/loading.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8616/django/trunk/django/db/models/__init__.py
+END
+related.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8616/django/trunk/django/db/models/related.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8223/django/trunk/django/db/models/signals.py
+END
+query.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8807/django/trunk/django/db/models/query.py
+END
+query_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7782/django/trunk/django/db/models/query_utils.py
+END

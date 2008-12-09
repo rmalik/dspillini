@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/8193/django/trunk/django/contrib/csrf
+END
+middleware.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8193/django/trunk/django/contrib/csrf/middleware.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4265/django/trunk/django/contrib/csrf/__init__.py
+END

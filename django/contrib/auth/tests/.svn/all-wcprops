@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8613/django/trunk/django/contrib/auth/tests
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8613/django/trunk/django/contrib/auth/tests/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8497/django/trunk/django/contrib/auth/tests/__init__.py
+END
+basic.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8162/django/trunk/django/contrib/auth/tests/basic.py
+END
+tokens.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8162/django/trunk/django/contrib/auth/tests/tokens.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8544/django/trunk/django/contrib/auth/tests/forms.py
+END

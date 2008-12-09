@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8301/django/trunk/django/db/backends/dummy
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8296/django/trunk/django/db/backends/dummy/base.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4265/django/trunk/django/db/backends/dummy/__init__.py
+END

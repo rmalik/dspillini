@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/9121/django/trunk/django/contrib/comments
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9038/django/trunk/django/contrib/comments/admin.py
+END
+managers.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8800/django/trunk/django/contrib/comments/managers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8573/django/trunk/django/contrib/comments/__init__.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8589/django/trunk/django/contrib/comments/signals.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8933/django/trunk/django/contrib/comments/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8614/django/trunk/django/contrib/comments/urls.py
+END
+feeds.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9089/django/trunk/django/contrib/comments/feeds.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9116/django/trunk/django/contrib/comments/forms.py
+END

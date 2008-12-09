@@ -1,0 +1,97 @@
+8
+
+dir
+9183
+http://code.djangoproject.com/svn/django/trunk/django/contrib/gis/db/models
+http://code.djangoproject.com/svn
+
+
+
+2008-08-26T04:55:56.016510Z
+8571
+gwilson
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bcc190cf-cafb-0310-a4f2-bffc1f526a37
+
+sql
+dir
+
+manager.py
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+ec1a43ee5baad276ed15da71d8d56608
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+has-props
+
+fields
+dir
+
+__init__.py
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+26283071da94fa228177ac89f1f10797
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+has-props
+
+proxy.py
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+20ea9c88d5a114480e5c7c7b32ed6421
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+
+mixin.py
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+0d6eb0d2c8f532e3fe6aed13310042e9
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+
+query.py
+file
+
+
+
+
+2008-10-07T01:26:28.000000Z
+1b6a151214392f664bb4a6005ef62bdf
+2008-08-05T18:13:06.236010Z
+8219
+jbronn
+has-props
+

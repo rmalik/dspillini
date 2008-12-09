@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/8720/django/trunk/django/core/files
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8244/django/trunk/django/core/files/base.py
+END
+locks.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8675/django/trunk/django/core/files/locks.py
+END
+uploadedfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8636/django/trunk/django/core/files/uploadedfile.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8244/django/trunk/django/core/files/__init__.py
+END
+uploadhandler.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8046/django/trunk/django/core/files/uploadhandler.py
+END
+storage.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8640/django/trunk/django/core/files/storage.py
+END
+images.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8249/django/trunk/django/core/files/images.py
+END
+temp.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8493/django/trunk/django/core/files/temp.py
+END
+move.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8720/django/trunk/django/core/files/move.py
+END

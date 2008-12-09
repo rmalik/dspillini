@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/9150/django/trunk/django/db
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/8424/django/trunk/django/db/__init__.py
+END
+transaction.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8419/django/trunk/django/db/transaction.py
+END

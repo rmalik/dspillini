@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/8728/django/trunk/django/contrib/gis/geos
+END
+error.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/error.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/base.py
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/LICENSE
+END
+collections.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/collections.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/__init__.py
+END
+coordseq.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/coordseq.py
+END
+geometries.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8219/django/trunk/django/contrib/gis/geos/geometries.py
+END
+libgeos.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8728/django/trunk/django/contrib/gis/geos/libgeos.py
+END

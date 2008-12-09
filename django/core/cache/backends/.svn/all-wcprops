@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8444/django/trunk/django/core/cache/backends
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8278/django/trunk/django/core/cache/backends/base.py
+END
+dummy.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8278/django/trunk/django/core/cache/backends/dummy.py
+END
+locmem.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8278/django/trunk/django/core/cache/backends/locmem.py
+END
+filebased.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8278/django/trunk/django/core/cache/backends/filebased.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4265/django/trunk/django/core/cache/backends/__init__.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8278/django/trunk/django/core/cache/backends/db.py
+END
+memcached.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8444/django/trunk/django/core/cache/backends/memcached.py
+END
