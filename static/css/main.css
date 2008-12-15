@@ -1,0 +1,8 @@
+#menu ul{
+	text-align: right;
+}
+#menu li{
+	display: inline;
+	font: 125% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	margin: 3px;
+}
