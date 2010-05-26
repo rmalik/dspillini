@@ -1,7 +1,7 @@
 # Makefile to simplify some common AppEngine actions.
 # Use 'make help' for a list of commands.
 
-DEV_APPSERVER=	dev_appserver.py
+DEV_APPSERVER=dev_appserver.py
 APPCFG=	appcfg.py
 
 default: help

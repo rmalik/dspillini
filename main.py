@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Main program for Rietveld.
-
-This is also a template for running a Django app under Google App
+"""
+This is a template for running a Django app under Google App
 Engine, especially when using a newer version of Django than provided
 in the App Engine standard library.
 
@@ -50,6 +49,11 @@ assert django.VERSION[0] >= 1, "This Django version is too old"
 # AppEngine imports.
 from google.appengine.ext.webapp import util
 
+# Gdata imports needed so that the gdata module uses URLfetch versus httplib (required of appengine)
+import gdata.service
+import gdata.urlfetch
+# Use urlfetch instead of httplib
+gdata.service.http_request_handler = gdata.urlfetch
 
 # Helper to enter the debugger.  This passes in __stdin__ and
 # __stdout__, because stdin and stdout are connected to the request

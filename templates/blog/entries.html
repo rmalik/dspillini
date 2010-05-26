@@ -1,17 +1,16 @@
+{% for entry in entries %}
 <div class="post"  id="article_{{entry.id}}">      
 		<div class="post_header"><h2><a href="{{entry.permalink}}">{{entry.title}}</a>
     <span class="nobreak">
-      <span class="author">{{entry.author}}</span>
-      <span class="date">{{entry.published}}</span> {# need to add date formatting for human readable dates#}
-      
+      <span class="date">{{entry.published|date:"M d Y"}}</span>
     </span>
   </h2>
-  <h3>
-        
-  <!--  <span id="comment_activity" class="comment_activity"><a href="http://www.37signals.com/svn/posts/1451-new-in-backpack-page-notifications-and-up-front-share-settings?4#comments">4 comments</a> Latest by Jose</span> -->
-  </h3>
+  <!--  <h3>    
+  <span id="comment_activity" class="comment_activity"><a href="http://www.37signals.com/svn/posts/1451-new-in-backpack-page-notifications-and-up-front-share-settings?4#comments">4 comments</a> Latest by Jose</span> 
+  </h3> -->
 </div>
+{% autoescape off %}
 {{entry.body}}
-	
-</div>  
-
+{% endautoescape %}
+</div>
+{% endfor %}

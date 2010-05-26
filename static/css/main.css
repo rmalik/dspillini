@@ -1,8 +1,273 @@
-#menu ul{
-	text-align: right;
+body{
+	margin: 0px;
 }
+#doc3{
+	margin: 0px;
+}
+a{
+	color:#3671A1;
+}
+.container{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#bd .container{
+	margin-bottom: 10px;
+}
+
+/*
+#bd .yui-g,
+#bd .yui-gb { background-image: url('https://assets1.yammer.com/images/background_medium.gif') }
+*/
+/*
+Images are wrapped in divs classed "flickr_badge_image" with ids "flickr_badge_imageX" where "X" is an integer specifying ordinal position. Below are some styles to get you started!
+*/
+.flickr_badge_image { float: left; margin: 10px;}
+.flickr_badge_image img {border: 1px solid #999 !important; padding: 2px;}
+.flickr_badge_image img:hover{ background-color: #666666;}
+#flickr_badge_wrapper { float: left;}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}
+.clear{
+	clear: both;
+}
+.event {
+	clear: both;
+	padding-bottom: 10px;
+	display: block;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.event strong{
+	background-color:#FFFFFF;
+	border: 0.5px solid #666666;
+	color:#339933;
+	display:block;
+	float:left;
+	font-family:Georgia;
+	font-size:1.5em;
+	font-style:italic;
+	height:50px;
+	text-align:center;
+	width:50px;
+}
+.event strong em{
+	background-color:#EAF7FF;
+	border-bottom:0.5px solid #666666;
+	display:block;
+	font-size:0.5em;
+	line-height:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.event p{
+	color:#727272;
+	font-weight:normal;
+	letter-spacing:1.5px;
+	text-align:right;
+	line-height: 2px;
+	float: right;
+	width:82%;
+}
+.event .title {
+	color: #000000;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Georgia;
+	line-height: 15px;
+}
+
+.event .location {}
+.event .time {}
+
+.more_link {
+	background-color: #FFFFFF;
+	color: #339933;
+	padding: 3px;
+	margin-left:auto;
+	margin-right:auto;
+	float: right;
+	font-weight:bold;
+	text-decoration: none;
+	clear:both;
+}
+.more_link:hover{
+	background-color: #339933;
+	color: #FFFFFF;
+}
+
+input {
+	border: 2px solid #888;
+	padding: 4px;
+	font-size: 1em;
+	background-color: #F8F8F8;
+}
+#hd{
+	background-color: #222222;
+	border-bottom: 2px solid #339933;
+}
+#ft{
+	background-color: #222222;
+	color: #666666;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+#menu {
+	color: #666666;
+	padding: 6px 0;
+	margin:0 auto;
+	background-color: #222222;
+	background-image: url('/static/images/dsp_greek_small.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.promo_text{
+	font-family: Georgia;  
+	font-size: 1.75em;	
+	text-align: left;
+	color: #727272;
+	text-indent: 20px;
+}
+
+#getting_started_container{
+	text-align: center;
+	color: #339933;
+	font-family:helvetica,arial,sans-serif;
+	font-size: 1.5em;
+}
+
+#getting_started_container a{
+	text-decoration: none;
+	color:#339933;
+}
+#getting_started_container a:visited{
+	color:#339933;
+}
+#getting_started_container a:hover{
+	text-decoration: underline;
+}
+.highlight{
+    /*background-color: #ECFDB3;*/
+	background-color: #EAF7FF;
+}
+
+
 #menu li{
 	display: inline;
-	font: 125% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	margin: 3px;
+	color: #FFFFFF;
+}
+
+#menu a{
+	color: #FFFFFF;
+	background-color: #222222;
+	text-decoration: none;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+
+#logo_hd{
+	font-family: Georgia;  
+	font-size: 2.5em;  
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+	display:block;
+}
+
+#logo_sub_hd{
+	font-family: Georgia;  
+	font-size: 1.5em;  
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+	color: #727272;
+	text-indent: 10%;
+}
+
+.desc_hd{
+	font-family: Georgia;  
+	font-size: 2.5em;  
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+	display:block;
+	text-align: center;
+}
+
+.desc_sub_hd{
+	font-family: Georgia;  
+	font-size: 1.5em;  
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+	text-align: left;
+}
+
+.desc_links{
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+	color: #339933;
+	text-align: left;
+}
+
+.desc_links a{
+	text-decoration: none;
+	color: #339933;
+	
+}
+.desc_links a:hover{
+	text-decoration: underline;
+}
+
+.separator {
+	border-top: 1px solid #999;
+}
+
+.sidebar{
+	text-align: left;
+}
+
+.news_date{
+	font-style: italic;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+.news_date a{
+	font-style: normal;
+	font-weight: normal;
+	color: #444444;
+	text-align: left;
+}
+
+.sidebar_header{
+	font-family: Georgia;  
+	font-size: 1.5em;
+	color: #727272;
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
+}
+
+.main_section_header {
+	font-family: Georgia;  
+	border-bottom-color:#727272;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	color:#727272;
+	font-size:2em;
+	padding-bottom:15px;
+	text-align:left;
+	letter-spacing: 3px;  
+	font-variant: small-caps;  
+	font-weight: normal;
 }

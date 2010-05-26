@@ -18,18 +18,12 @@ from google.appengine.api import users
 from google.appengine.api import urlfetch
 from google.appengine.ext import db
 from google.appengine.ext.db import djangoforms
-
-# DeadlineExceededError can live in two different places
-# TODO(guido): simplify once this is fixed.
 try:
-  # When deployed
   from google.appengine.runtime import DeadlineExceededError
 except ImportError:
-  # In the development server
   from google.appengine.runtime.apiproxy_errors import DeadlineExceededError
 
 # Django imports
-# TODO(guido): Don't import classes/functions directly.
 from django import forms
 from django.http import Http404
 from django.http import HttpResponse, HttpResponseRedirect
@@ -38,18 +32,49 @@ from django.shortcuts import render_to_response
 import django.template
 from django.utils import simplejson
 
+from blog.models import Entry
+
+def login_required(func):
+	"""Decorator that redirects to the login page if you're not logged in."""
+	def login_wrapper(request, *args, **kwds):
+		if users.get_current_user() is None:
+			return HttpResponseRedirect(users.create_login_url(request.get_full_path().encode('utf-8')))
+		return func(request, *args, **kwds)
+	return login_wrapper
+
+
 def entry_detail(request):
-	pass
+	return render_to_response('base.html')
 
 def archive_day(request):
-	pass
+	return render_to_response('base.html')
 
 def archive_month(request):
-	pass
+	return render_to_response('base.html')
 
 def archive_year(request):
-	pass
+	return render_to_response('base.html')
 
 def archive_index(request):
+	entries = Entry.all()
+	entries.order('-published')
+	entries.fetch(limit=5)
+	return render_to_response('base.html')#, {'entries': entries, 'events': events})
+
+@login_required
+def create(request):
+	if request.is_ajax():
+		e = Entry(title=request.POST['title'],
+				  body=request.POST['editor_data'],
+				  author = users.get_current_user())
+		e.put()
+		return archive_index(request)
+	else:
+		return render_to_response('blog/create.html')
+
+def update(request):
+	"""docstring for update"""
+	pass
 	
-	return render_to_response('base.html')
+def delete(request):
+	pass

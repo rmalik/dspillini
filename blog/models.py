@@ -24,7 +24,6 @@ from google.appengine.api import memcache
 class Entry(db.Model):
     author = db.UserProperty()
     title = db.StringProperty(required=True)
-    slug = db.StringProperty(required=True)
     body = db.TextProperty(required=True)
     published = db.DateTimeProperty(auto_now_add=True)
     updated = db.DateTimeProperty(auto_now=True)

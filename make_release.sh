@@ -10,8 +10,8 @@
 
 ZIPFILE=django.zip
 RELEASE=release
-FILES="app.yaml index.yaml __init__.py main.py settings.py urls.py"
-DIRS="static templates blog"
+FILES="app.yaml index.yaml __init__.py main.py settings.py urls.py views.py"
+DIRS="static templates blog gdata atom dateutil"
 
 # Remove old $ZIPFILE file.
 rm -rf $ZIPFILE

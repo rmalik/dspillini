@@ -6,4 +6,5 @@ urlpatterns = patterns('blog.views',
     (r'^(?P<year>\d{4})/(?P<month>[a-z]{3})/$', 'archive_month'),
     (r'^(?P<year>\d{4})/$', 'archive_year'),
     (r'^$', 'archive_index'),
+	(r'^create/$', 'create'),
 )
