@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}Costs & Expenses{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="/static/css/costs.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<div class="yui-gb">
+	<div class='container'>
+		<p class='desc_hd'>Costs & Expenses</p>
+		<img src='/static/images/costs_img.png'/>
+	    <div class="yui-u first cost_option">
+			<p class='desc_sub_hd'>Pledge</p>
+			<p class='costs_item'>Initial Pledging Fee <span class='price'>$100</span></p>
+			<p class='costs_item'>Initiation Fee <span class='price'>$275</span></p>
+			<p class='price_total'>Total Cost: $375</p>
+	    </div>
+        <div class="yui-u cost_option">
+			<p class='desc_sub_hd'>Active Member + Housing & Parking</p>
+			
+			<p class='costs_item'>Membership Dues <span class='price'>$425</span></p>
+			<p class='costs_item'>Housing & Meal Plan <span class='price'>$4000-$4300</span></p>
+			<p class='costs_item'>Security Deposit <span class='price'>$500</span></p>
+			<p class='costs_item'>Parking <span class='price'>$150</span></p>
+			
+			<p class='price_total'>Single Room: $4875/semester</p>
+			<p class='price_total'>Double Room: $4575/semester</p>
+			<p class='costs_item'>Security Deposit is a one-time only fee due upon move-in.</p>
+
+	    </div>
+        <div class="yui-u cost_option">
+			<p class='desc_sub_hd'>Active Member (Out-of-House)</p>
+			<p class='costs_item'>Membership Dues <span class='price'>$425</span></p>
+			<p class='costs_item'>Out-of-House Fee <span class='price'>$200</span></p>
+			<p class='price_total'>Total Cost: $625/semester</p>
+	    </div>
+	</div>
+</div>
+
+<div class="yui-g"><div class='container separator'></div></div>
+
+
+<div class="yui-g">
+	<div class='container'>
+		<div class="desc_sub_hd">Common Questions</div>
+		<div class='nav_links'>
+		<ul>
+			<li><a href="#question1">Do you have a scholarship?</a></li>
+			<li><a href="#question2">When should I make my payments?</a></li>
+			<li><a href="#question3">Are there payment plans available?</a></li>
+			<li><a href="#question4">What are my payment method options?</a></li>
+			<li><a href="#question5">Who should I pay?</a></li>
+			<li><a href="#question6">How do I get a single or double room?</a></li>
+		</ul>
+		</div>
+		<a name='question1'></a><p class='question'>Do you have a scholarship?</p>
+		<p class='answer'>We offer three (3) $500 scholarships to pledges and two (2) $500 scholarships to active members each semester. The application and additional information can be found on our <a href="{% url views.scholarship %}">scholarship page</a>.</p>
+		
+		<a name='question2'></a><p class='question'>When should I make my payments?</p>
+			<p class='answer'>For Pledges, the initial pledging fee is due at the start of pledge education. The initiation fee must be paid by the day of the initiation ceremony (end of the semester).</p>
+			<p class='answer'>For Active Members, all payments are due at the beginning of the semester.</p>
+		
+		
+		<a name='question3'></a><p class='question'>Are there payment plans available?</p>
+		<p class='answer'>In the past we have tried to be flexible to accommodate those with financial difficulties. The eligibility of a payment plan is on a case-by-case basis and will be decided by the Treasurer.</a></p>
+		<a name='question4'></a><p class='question'>What are my payment method options?</p>
+		
+		<p class='answer'>All payments should be preferably in a check made out to 'Delta Sigma Phi Fraternity'. Cash will also be accepted. Credit Cards and/or PayPal are not accepted at this time.</p>
+		
+		<a name='question5'></a><p class='question'>Who should I pay?</p>
+		<p class='answer'>All payments should be given directly to the Treasurer. In the event that he is unavailable it is recommended to leave your check in the mailbox of the Treasurer (located in the mailroom of the house)</p>
+		
+		<a name='question6'></a><p class='question'>How do I get a single or double room?</p>
+		<p class='answer'>Room selection is based on a few factors: availability, seniority and level of participation in the fraternity. A single room is not guaranteed.</p>
+
+
+		<p class='question'>Have more questions?</p>
+		<p class='answer'>If you have any questions regarding financial issues, feel free to email <a href="mailto:treasurer@illinideltasigs.org">treasurer AT illinideltasigs.org</a></p>
+	</div>
+<!-- YOUR DATA GOES HERE -->
+</div>
+{% endblock %}

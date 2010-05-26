@@ -1,0 +1,58 @@
+.price_total{
+	font-family:Georgia;
+	font-size:1.5em;
+	color:#339933;
+}
+
+.costs_item{
+	font-family:Georgia;
+	font-size:1.15em;
+}
+.price{
+	font-size:1.15em;
+	color:#727272;
+}
+
+.cost_option{
+	border-top:6px solid #339933;
+	margin-top:20px;
+	padding-top:5px;
+	text-align:center;
+}
+
+.cost_option .desc_sub_hd{
+	font-family:Georgia;
+	font-size:1.5em;
+	font-variant:small-caps;
+	font-weight:normal;
+	letter-spacing:3px;
+	text-align:center;
+}
+
+.question{
+	font-family:Georgia;
+	font-size:1.35em;
+	font-weight:normal;
+	letter-spacing:1px;
+	margin-left: 10px;
+	color: #339933;
+	padding-top: 10px;
+}
+.answer{
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size:1.15em;
+	font-weight:normal;
+	margin-left: 10px;
+}
+
+.nav_links{
+	list-style-type: none;	
+}
+
+.nav_links a{
+	line-height: 1.4em;
+	font-size: 1.25em;
+}
+ul{
+	list-style-type: none;
+}

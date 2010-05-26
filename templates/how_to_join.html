@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="/static/css/costs.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<div class="yui-g">
+	<div class='container'>
+		<p class='desc_hd'>How to Join Delta Sigma Phi</p>
+		<!--
+			right promo text about 'why' to join
+			- better leadership
+			- community service,
+			- social
+			- .....
+			+ maybe 3 sections, two rows of information?
+			+ youtube vid's from nationals.
+
+		-->
+		<img src='/static/images/brothers_hangout.png'/>
+    	<div class="yui-u first">
+			<p class="desc_sub_hd">Steps to becoming a member</p>
+				<div class='nav_links'>
+				<ul>
+					<li><a href="#step1">Come to an Event, Drop by the house, Email us, Apply for our scholarship..</a></li>
+					<li><a href="#step2">Receive a Bid</a></li>
+					<li><a href="#step3">Complete Pledge Education</a></li>
+					<li><a href="#step4">Initiate as a New Member</a></li>
+				</ul>
+				</div>	
+			<a name="step1"></a><p class="question">Come to an Event, Drop by the house, Email us, Apply for our scholarship..</p>
+			<p class="answer">
+				There are many ways to start your process to becoming a member of Delta Sigma Phi. The most common way is to attend the events we host frequently. If you are unable to attend our events for some reason, drop by and meet some of the brothers and take a house tour. If your schedule is too hectic please email our recruitment director, Michael Fauerbach at <a href="mailto:mfauerb2@gmail.com">mfauerb2@gmail.com</a> and schedule a time that works for you. Last but not least, we have a <a href="{% url views.scholarship %}">scholarship</a> which is a great way for us to learn more about you (not to mention you make money!).
+			</p>
+			<a name="step2"></a><p class="question">Receive a Bid</p>
+			<p class="answer">
+				A bid is a written offer to become a member of Delta Sigma Phi. After stopping by for a few visits, the brothers may decide that they wish to offer the opportunity to become a member. This decision must pass throughout a majority of the entire chapter and a bid will be extended if it is approved. We notice when new prospects are around often so there isn't anything special to do for this to occur (although mentioning you want a bid might speed things up!).
+			</p>
+			<a name="step3"></a><p class="question">Complete Pledge Education</p>
+			<p class="answer">
+				Once you accept your bid you will be recognized as a pledge of Delta Sigma Phi. Along with your fellow pledges, you will complete an 8-week pledge education course that will teach the history of the organization, structure of our fraternity leadership. It will also emphasize developing good academic habits, getting involved in the community, and professional development. Also, it should be noted that we have a strict policy against hazing and if a pledge feels at any point what he is asked to do is hazing they can refuse the request with zero repercussions.
+			</p>
+			<a name="step4"></a><p class="question">Initiate as a New Member</p>
+			<p class="answer">
+				Towards the end of the semester we will have an initiation ceremony for all of the current pledges. This ritual is one that all Delta Sigma Phi members have gone through together and it is the final step where we welcome our new brothers into the organization. Similar to our pledge education process, the ceremony does not condone any form of hazing.
+			</p>
+			<p class="question">I want to join. Who should I contact?</p>
+			<p class="answer">Please email our recruitment director, Michael Fauerbach at <a href="mailto:mfauerb2@gmail.com">mfauerb2@gmail.com</a>.</p>
+	    </div>
+    	<div class="yui-u">
+			<p class="desc_sub_hd">Experiences from Delta Sigs Everywhere</p>
+	
+	<object width="460" height="385"><param name="movie" value="http://www.youtube.com/v/3kv5JayrumU&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/3kv5JayrumU&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="385"></embed></object>
+<object width="460" height="385"><param name="movie" value="http://www.youtube.com/v/CVin3CPlQIE&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/CVin3CPlQIE&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="385"></embed></object>
+	    </div>
+	</div>
+</div>
+<div class="yui-g">
+	<div class='container'>
+
+
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <title>Home | Delta Sigma Phi Alpha Alpha Chapter</title>
+	<link rel="icon" type="image/png" href="/static/images/favicon.ico">
+   <link rel="stylesheet" href="http://yui.yahooapis.com/2.5.1/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+   <link rel="stylesheet" href="/static/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link href="http://www.37signals.com/svn/stylesheets/screen.css?1228280136" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="doc2" class="yui-t7">
+   <div id="hd">
+		<div id='menu'>
+			<ul>
+				<li><a href="">Home</a></li>|<li><a href="">News</a></li>|<li><a href="">Events</a></li>|<li><a href="">Photos</a></li>|<li><a href="">Join Us</a></li>|<li><a href="">Scholarship</a></li>|<li><a href="">Finances & Housing</a></li>|<li><a href="">About Us</a></li>
+			</ul>
+
+		</div>
+   		<div id="logo_hd">Delta Sigma Phi Fraternity</div>
+		<div id="logo_sub_hd">Alpha Alpha Chapter</div>
+   </div>
+   <div id="bd">
+	<div class="yui-ge">
+    <div class="yui-u first">
+		<!-- <p class="main_section_header">News</p> -->
+	<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=3196665&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=3196665&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="225"></embed></object><p><a href="http://vimeo.com/3196665">VT Delta Sigma Phi Anchorsplash 2009</a> from <a href="http://vimeo.com/user864348">Pyramid</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+  		
+	</div>
+    <div class="yui-u">
+		<div class='sidebar_header'>Upcoming Events</div>			
+		{% for event,event_date in events %}
+	    {% ifchanged %}<h4>{{event_date|date:"l, F dS"}}</h4>{% endifchanged %}
+		<p><a href="">{{event.title.text}}</a></p>
+		{% endfor %}
+	</div>
+</div>
+
+	</div>
+   <div id="ft">
+   	    <p>Content copyright &copy;1999-2008 <a href="http://www.illinideltasigs.org/">Delta Sigma Phi Alpha Alpha</a></p>
+   </div>
+</div>
+</body>
+</html>

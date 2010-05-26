@@ -1,0 +1,15 @@
+.letter p{
+	font-family: Georgia;
+	line-height: 1.75em;
+}
+
+.scholarship_app a{
+	color: #FFFFFF;
+	background-color: #339933;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.scholarship_app a:active{
+	border: 1px solid #999;
+}

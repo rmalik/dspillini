@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="yui-g">
+	<div class='container'>
+    	<div class="yui-u first">
+		<!--	<p class='promo_text'>Better Men. Better Lives.</p> -->
+			<p class='promo_text'>Become a Leader</p>
+			<p class='promo_text'>Get Involved in Campus</p>
+			<p class='promo_text'>Create Long Lasting Friendships</p>
+			<p class='promo_text'>Learn to Network</p>
+			<p class='promo_text'>Give Back to Your Community</p>			
+			<p class='promo_text'>And Much Much More...</p>
+			<div id="getting_started_container">
+				<p class='promo_text'><a href="{% url views.join_us %}">Join Us</a> or <a href="{% url views.join_us %}">Learn More</a></p>
+			</div>
+		<!-- YOUR DATA GOES HERE -->
+	    </div>
+    	<div class="yui-u">
+	<object width="460" height="385"><param name="movie" value="http://www.youtube.com/v/A4dlXvg4Ra8&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/A4dlXvg4Ra8&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="385"></embed></object>
+	<!--
+			<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5882305&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5882305&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="466" height="350"></embed></object><p><a href="http://vimeo.com/5882305">A Different Kind of Fraternity</a> from <a href="http://vimeo.com/user1941164">Illini DeltaSig</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+-->
+		<!--
+		<img src="/static/images/convention_2007.jpg"/>
+		-->
+	    </div>
+	</div>
+</div>
+<!--
+<div class="yui-g">
+	<div class='container'>
+		<div class="desc_hd">Who Are You?</div>
+	</div>
+</div>
+-->
+<div class="yui-g"><div class='container separator'></div></div>
+    <div class="yui-gb">
+		<div class='container'>
+        <div class="yui-u first">
+			<p class='desc_sub_hd'>Students</p>
+				<div class='desc_links'>
+				<p><a href="{% url views.join_us %}">How to Join</a></p>
+				<p><a href="http://www.facebook.com/pages/Champaign-IL/Delta-Sigma-Phi/14064833757?v=app_2344061033">Upcoming Events</a></p>			
+				<p><a href="{% url views.costs %}">Costs & Expenses</a></p>
+				<p><a href="{% url views.scholarship %}">Scholarships</a></p>
+				<p><a href="">Living in the House</a></p>
+			</div>
+	<!-- YOUR DATA GOES HERE -->
+	    </div>
+        <div class="yui-u">
+			<p class='desc_sub_hd'>Parents</p>
+				<div class='desc_links'>
+				<p><a href="{% url views.concerns %}">Common Concerns & Answers</a></p>
+				<p><a href="{% url views.schedule_visit %}">Schedule a Visit</a></p>			
+				<p><a href="">Housing & Meal Plan</a></p>
+				<p><a href="">Contact Us</a></p>
+				<p><a href="http://www.deltasig.org/">National Organization</a></p>
+				</div>
+
+	<!-- YOUR DATA GOES HERE -->
+	        </div>
+        <div class="yui-u">
+			<p class='desc_sub_hd'>Alumni</p>
+				<div class='desc_links'>
+				<p><a href="">Alumni Board</a></p>
+				<p><a href="{% url views.carillon_archive %}">Carillon Issues</a></p>
+				<p><a href="">Alpha Alpha Foundation</a></p>			
+				<p><a href="http://groups.google.com/group/delta-sig-alpha-alpha-alumni">Google Group</a></p>
+				<p><a href="">Donate to the Chapter</a></p>
+				</div>
+ 
+
+	<!-- YOUR DATA GOES HERE -->
+	        </div>
+		</div>
+    </div>
+<div class="yui-g"><div class='container separator'></div></div>
+    <div class="yui-gb">
+		<div class='container'>
+    	    <div class="yui-u first">
+				<p class='desc_sub_hd'>Recent News</p>
+				<script type="text/javascript" src="http://news.illinideltasigs.org/api/read/json/?num=5"></script>
+
+				<script type="text/javascript">
+				Date.prototype.format=function(format){var returnStr='';var replace=Date.replaceChars;for(var i=0;i<format.length;i++){var curChar=format.charAt(i);if(replace[curChar]){returnStr+=replace[curChar].call(this);}else{returnStr+=curChar;}}return returnStr;};Date.replaceChars={shortMonths:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],longMonths:['January','February','March','April','May','June','July','August','September','October','November','December'],shortDays:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],longDays:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],d:function(){return(this.getDate()<10?'0':'')+this.getDate();},D:function(){return Date.replaceChars.shortDays[this.getDay()];},j:function(){return this.getDate();},l:function(){return Date.replaceChars.longDays[this.getDay()];},N:function(){return this.getDay()+1;},S:function(){return(this.getDate()%10==1&&this.getDate()!=11?'st':(this.getDate()%10==2&&this.getDate()!=12?'nd':(this.getDate()%10==3&&this.getDate()!=13?'rd':'th')));},w:function(){return this.getDay();},z:function(){return"Not Yet Supported";},W:function(){return"Not Yet Supported";},F:function(){return Date.replaceChars.longMonths[this.getMonth()];},m:function(){return(this.getMonth()<11?'0':'')+(this.getMonth()+1);},M:function(){return Date.replaceChars.shortMonths[this.getMonth()];},n:function(){return this.getMonth()+1;},t:function(){return"Not Yet Supported";},L:function(){return"Not Yet Supported";},o:function(){return"Not Supported";},Y:function(){return this.getFullYear();},y:function(){return(''+this.getFullYear()).substr(2);},a:function(){return this.getHours()<12?'am':'pm';},A:function(){return this.getHours()<12?'AM':'PM';},B:function(){return"Not Yet Supported";},g:function(){return this.getHours()%12||12;},G:function(){return this.getHours();},h:function(){return((this.getHours()%12||12)<10?'0':'')+(this.getHours()%12||12);},H:function(){return(this.getHours()<10?'0':'')+this.getHours();},i:function(){return(this.getMinutes()<10?'0':'')+this.getMinutes();},s:function(){return(this.getSeconds()<10?'0':'')+this.getSeconds();},e:function(){return"Not Yet Supported";},I:function(){return"Not Supported";},O:function(){return(this.getTimezoneOffset()<0?'-':'+')+(this.getTimezoneOffset()/60<10?'0':'')+(this.getTimezoneOffset()/60)+'00';},T:function(){return"Not Yet Supported";},Z:function(){return this.getTimezoneOffset()*60;},c:function(){return"Not Yet Supported";},r:function(){return this.toString();},U:function(){return this.getTime()/1000;}};
+				</script>
+				<script>
+				    // The variable "tumblr_api_read" is now set.
+				   	for(var i=0; i < tumblr_api_read.posts.length; i++){
+						var article = tumblr_api_read.posts[i];
+						var article_date = new Date(Date.parse(article['date']));
+						document.write('<p class="news_date">' + article_date.format("M j") + ' <a href="' + article['url-with-slug'] + '">' + article['regular-title'] +'</a></p>');
+					}
+				</script>
+				<a class='more_link' href="http://news.illinideltasigs.org/">Read More News</a>
+		<!-- YOUR DATA GOES HERE -->
+		    </div>
+	        <div class="yui-u">
+			
+				<p class='desc_sub_hd'>Upcoming Events</p>
+				{% for event in events %}
+					<div class="event">
+			<strong><em>{{event.start_time|date:"m/Y"}}</em>{{event.start_time|date:"j"}}</strong>
+						<p class='title'>{{event.title}}</p>
+						{% ifnotequal event.location None %}
+						<p>@ {{event.location}}</p>
+						{% endifnotequal %}
+						<p>from {{event.start_time|date:"gA"}} to {{event.end_time|date:"gA"}}</p>
+					</div>
+			   {% endfor %}
+					<a class='more_link' href="http://www.facebook.com/pages/Champaign-IL/Delta-Sigma-Phi/14064833757?v=app_2344061033">See More Events</a>
+		        </div>
+	        <div class="yui-u">
+				<p class='desc_sub_hd'>Random Photos</p>
+				<div id="flickr_badge_uber_wrapper">
+					<div id="flickr_badge_wrapper">
+					<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&display=latest&size=s&layout=x&source=user&user=39128539%40N07"></script>
+				
+					</div>
+				</div>
+				<a class='more_link' href="http://www.flickr.com/photos/deltasigs/">See More Photos</a>
+		        </div>
+		</div>
+    </div>
+{% endblock %}
